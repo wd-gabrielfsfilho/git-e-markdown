@@ -1,1 +1,1 @@
-## Arquivo de configuração inicial
+# Arquivo de configuração inicial
