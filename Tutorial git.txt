@@ -1,0 +1,69 @@
+Git e Github na pratica:
+	
+CONFIGURAÇÃO DE UM DIRETORIO LOCAL COM O GIT HUB:
+	Checar versão:
+		git version
+		
+	Configuração local do usuario:
+		git config --global user.name "..."
+		git config --global user.email "..."
+	
+	Inicializar um repositorio vazio:
+		git init
+	
+	Crie os arquivos:
+		-
+	
+	Enviar arquivos para area de staging:
+		git add <arquivos> ou . para todos
+	
+	Verificar mudanças feitas no diretorio e mudanças presentes no staging
+		git status
+	
+	Forçe a mudança de nome da branch principal de Master para Main:
+		git branch -M main
+	
+	Acesse o github e crie um repositorio com o mesmo nome do que esta sendo utilizado
+		-
+	
+	Faça a ligação do diretorio local com a nuvem:
+		git remote add origin <link com extensão .git para o local>
+	
+	Envie os arquivos do diretorio local para a nuvem:
+		git push -u origin main
+	
+	
+	
+USAR UMA BRANCH:
+	Criar e mudar para a branch a ser usada:
+		git checkout -b "nome da branch"
+		
+	Salvar novos arquivos e mudanças:
+		git add .
+	
+	Salvar o historico
+		git commit -m "mudanças"
+	
+	Sair dessa branch:
+		git checkout "nome de outra branch"
+	
+	Listar branchs:
+		git branch
+	
+	Salvar as mudanças feitas na nuvem
+		git push origin <nome da branch>
+	
+	Mesclar a branch criada com a main
+		use: git checkout <nome da branch> para acessar a branch a receber as mudanças feitas na outra branch
+		use: git merge <nome da branch> para fundir os arquivos e mudanças da branch com os arquivos com a branch principal
+		use: git push origin <nome da branch> para enviar todas as mudanças para a nuvem
+	
+	
+	
+CLONAR UM REPOSITORIO ONLINE PARA LOCAL:
+		git clone <link .git>
+	
+	
+	
+ATUALIZAR O DIRETORIO LOCAL COM A NUVEM
+		git pull
