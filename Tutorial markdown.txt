@@ -1,0 +1,37 @@
+Tags e marcações para o Markdown:
+
+	Titulos até h3:
+		#, ## ou ### <texto>
+	Negrito:
+		**<texto>**
+	Italico:
+		*<texto>*
+	Lista não ordenada:
+		* Primeiro
+		* Segundo
+		* Terceiro
+	Lista ordenada:
+		1. Primeiro
+		2. Segundo
+		3. Terceiro
+	Código:
+		```html5
+			<div>
+				<img src="./images/img.jpg" alt="simple image">
+			</div>
+		```
+	Linha horizontal:
+		---
+	Link:
+		[<texto do link>](<caminho do link>)
+	Imagem:
+		![<texto de alt da imagem](caminho da imagem)
+	Link de pagina:
+		<texto...> [^1]
+		
+		[^1]: Nota de rodapé ou link da pagina para navegação
+	Lista de tarefas:
+		- [] <texto>
+		- [] <texto>
+		- [] <texto>
+		- [x] <texto>
