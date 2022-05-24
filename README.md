@@ -5,4 +5,4 @@
 	- [Parte 2](https://www.youtube.com/watch?v=UBAX-13g8OM)
 	
 -Curso de Linguagem Markdown do Git e GitHub do canal [Curso em Vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo)
-	-[Vídeo único](https://www.youtube.com/watch?v=LntSB-gl-ZI)
+	- [Vídeo único](https://www.youtube.com/watch?v=LntSB-gl-ZI)
